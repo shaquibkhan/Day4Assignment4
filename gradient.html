@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>gradient_effect</title>
+    <style type="text/css">
+        /* some styling done on firstdiv like margin float etc..*/
+        .firstdiv{
+            width: 100px;
+            height: 150px;
+            line-height: 100px;
+            text-align: center;
+            border-radius: 10px;
+            margin:150px; ;
+            background-color: blue;
+            float: left;
+            padding: 50px;
+            background: linear-gradient(red,yellow, green);
+
+        }
+        /* similar styling done on seconddiv  ..*/
+        .seconddiv{
+             width: 100px;
+            height: 150px;
+            line-height: 100px;
+            text-align: center;
+            border-radius: 10px;
+            margin:150px; ;
+            background-color: blue;
+            float: left;
+            padding: 50px;
+            background: radial-gradient(circle,blue,yellow,green);  /* for circle shape*/
+        }
+        /* thirddiv on which css applied*/
+        .thirddiv{
+             width: 100px;
+            height: 150px;
+            line-height: 100px;
+            text-align: center;
+            border-radius: 10px;
+            margin:150px; ;
+            background-color: blue;
+            float: left;
+            padding: 50px;
+            background: radial-gradient(blue,yellow,green); /* by default shape is ellipse*/
+        }
+    </style>
+</head>
+
+<body>          <!-- This is my main body which is comprised of three divs-->
+<div class="firstdiv">BOX</div>
+<div class="seconddiv">BOX</div>
+<div class="thirddiv">BOX</div>
+</div>
+</body>
+</html>
